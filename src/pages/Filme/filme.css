@@ -1,0 +1,89 @@
+.box-filme-loading {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.filme-loading {
+    margin: 0 auto;
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #BE123C;
+    height: 100px;
+    width: 100px;
+  }
+  
+  @keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+  .container-filme {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 100px;
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  .container-filme h1 {
+    margin-top: 0.5rem;
+  }
+
+  .stars-filme {
+    margin-top: 0.3rem;
+  }
+
+  .stars-filme i {
+    color: rgb(245, 215, 46)
+  }
+
+  .container-filme h3 {
+    font-size: 1.5rem;
+  }
+
+  .container-filme p {
+    margin-top: 0.3rem;
+  }
+
+  .buttons-filme {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-top: 0.3rem;
+  }
+
+  .container-filme button {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 40%;
+    margin: 10px auto 10 auto;
+    height: 36px;
+    background: #BE123C;
+    border-radius: 8px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+  }
+
+  .container-filme button:hover {
+    opacity: 0.8
+  }
+
+  .container-filme button:active {
+    opacity: 0.6
+  }
+
+  .container-filme a {
+    color: #FFF;
+
+  }

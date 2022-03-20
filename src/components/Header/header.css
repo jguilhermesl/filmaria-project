@@ -1,0 +1,81 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: #BE123C;
+    color: #fff;
+    position: fixed;
+    z-index: 10;
+}
+
+.h1-header {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.div-input-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 525px;
+    height: 36px;
+    border: #D1D5DB 2px solid;
+    border-radius: 6px;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.input-header {
+    width: 95%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    color:#fff; 
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.input-header::-webkit-input-placeholder  { 
+    color:#fff; 
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.div-input-header i {
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.h1-header i {
+    display: flex;
+    align-items: center;  
+    text-align: center; 
+    margin-right: 10px;
+    background: #BE123C;
+    height: 32px;
+    width: 30px;
+    border-radius: 200px;
+    padding-left: 5px;
+}
+
+.icon-menu-header  {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    text-align: center; 
+    color: #fff;
+    font-size: 18px;
+    background: #BE123C;
+    height: 32px;
+    width: 100px;
+    border-radius: 200px;
+}

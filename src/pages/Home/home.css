@@ -1,0 +1,108 @@
+.movie-wrapper {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+}
+
+.img-wrapper {
+    width: 100vw;
+    height: 70vh;
+    background: #000;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.text-wrapper {
+    position: absolute;
+    bottom: 6rem;
+    left: 2rem;
+    max-width: 32vw;
+}
+
+.text-wrapper h2 { 
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-size: 300%;
+    font-weight: 700;
+    color: #fff;
+}
+
+.text-wrapper p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.button-home {
+    margin-top: 10px;
+    width: 170px;
+    height: 36px;
+    background: #BE123C;
+    border-radius: 8px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+.movies-high {
+    margin-top: 10px;
+    margin-left: 12.1%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.movies-list {
+    position: relative;
+    top: 1.5rem;
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.box-movie {
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box-movie img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.box-movie h2 {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.stars {
+    margin-left: 10px;
+    color: rgb(245, 215, 46)
+}
+
+.button-movies {
+    margin-top: 10px;
+    width: 400px;
+    margin: 10px auto 1rem auto;
+    height: 36px;
+    background: #BE123C;
+    border-radius: 8px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+
+}
