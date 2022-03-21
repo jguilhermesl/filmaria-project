@@ -12,7 +12,7 @@ function Header() {
                 <input className="input-header" placeholder='O que você quer assistir?' />
                 <i className='bx bx-search'></i>
             </div>
-            <Link to="/favoritos" className="icon-menu-header">Salvos</Link>
+            <Link to="/favoritos" className="icon-menu-header">Favoritos</Link>
         </header>
         </>
     )
