@@ -6,7 +6,6 @@ header {
     height: 60px;
     background: #BE123C;
     color: #fff;
-    position: fixed;
     z-index: 10;
 }
 

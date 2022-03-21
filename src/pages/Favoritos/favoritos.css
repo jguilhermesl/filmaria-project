@@ -1,0 +1,83 @@
+.favoritos {
+    width: 100vw;
+    text-align: center;
+}
+
+.favoritos h1 {
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.8rem;
+}
+
+.lista-favoritos {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.lista-favoritos li {
+    height: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.seeDetails {
+    font-size: 18px;
+    font-weight: 700;
+    width: 120px;
+    height: 30px;
+    background: #BE123C;
+    border-radius: 8px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+.seeDetails:hover {
+    opacity: 0.8;
+
+}
+
+.seeDetails:active {
+    opacity: 0.6;
+
+}
+
+.lista-favoritos li p {
+    width: 300px;
+    text-align: left;
+}
+
+.lista-favoritos li button {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.lista-favoritos li button i  {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.lista-favoritos li button i:hover {
+    color: #BE123C;
+}
+
+.lista-favoritos li button i:active {
+    color: #BE123C;
+    opacity: 0.8;
+}
